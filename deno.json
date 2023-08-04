@@ -1,0 +1,16 @@
+{
+  "tasks": {
+    "dev": "deno run -A scripts/dev.ts"
+  },
+  "imports": {
+    "lit": "https://esm.sh/lit@2.7.6",
+    "lit/decorators": "https://esm.sh/lit@2.7.6/decorators.js",
+    "ecs": "https://deno.land/x/ecs_proxy@0.5.3/src/index.ts",
+    "three": "https://esm.sh/three@0.155.0",
+    "three/": "https://esm.sh/three@0.155.0/",
+    "zod": "https://esm.sh/zod@3.21.4"
+  },
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "dom.asynciterable", "deno.ns"]
+  }
+}

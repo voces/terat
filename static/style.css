@@ -1,0 +1,7 @@
+body {
+    position: absolute;
+    inset: 0;
+    background-color: #111;
+    color: white;
+    font-family: 'Bruno Ace', Helvetica, "Trebuchet MS", Verdana, sans-serif;
+}
